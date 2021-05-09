@@ -5,7 +5,7 @@
     <groupId>com.mycompany.app</groupId>
     <artifactId>ci-cd1</artifactId>
     <version>1</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>ci-cd1</name>
     <description>Blank project for GraalVM + Spring MVC</description>
@@ -74,7 +74,7 @@
 
     <profiles>
         <profile>
-            <id>jar</id>
+            <id>war</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
